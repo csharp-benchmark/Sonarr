@@ -1,4 +1,4 @@
-FROM ubuntu:focal AS builder
+FROM ubuntu:20.04 AS builder
 
 ENV DEBIAN_FRONTEND noninteractive 
 ENV MONO_VERSION 5.18
